@@ -1,5 +1,7 @@
 # AdsMarket
 
+[![GitHub](https://img.shields.io/badge/GitHub-AdsMarket-blue)](https://github.com/YaroslavKuchko/AdsMarket)
+
 **Telegram-бот для тестирования:** [@ads_marketplacebot](https://t.me/ads_marketplacebot)
 
 Маркетплейс рекламы в Telegram-каналах. Владельцы каналов публикуют форматы (посты, сторис), покупатели оплачивают Stars, TON или USDT и размещают рекламу.
