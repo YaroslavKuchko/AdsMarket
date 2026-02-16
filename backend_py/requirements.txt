@@ -1,0 +1,32 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+pydantic-settings==2.7.1
+SQLAlchemy==2.0.45
+psycopg[binary]==3.2.13
+alembic==1.14.0
+PyJWT==2.10.1
+httpx==0.28.1
+pyrogram==2.0.106
+TgCrypto==1.2.5
+APScheduler==3.10.4
+beautifulsoup4==4.12.3
+lxml==5.3.0
+# Telethon for channel parsing (more reliable than Pyrogram for some operations)
+telethon==1.37.0
+# Telegram bot for ad post flow (same token as Mini App)
+aiogram>=3.0.0
+
+# TON blockchain (USDT Jetton withdrawals)
+pytoniq>=0.1.43
+
+# AI Analytics
+openai==1.58.1
+# Image processing (channel photo -> custom emoji)
+Pillow>=10.0.0
+
+# Data processing
+pandas==2.2.3
+numpy==2.2.1
+
+

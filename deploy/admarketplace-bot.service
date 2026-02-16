@@ -1,0 +1,20 @@
+[Unit]
+Description=AdMarketplace Telegram Bot
+After=network.target admarketplace-backend.service
+Wants=admarketplace-backend.service
+
+[Service]
+Type=simple
+User=admarket
+Group=admarket
+WorkingDirectory=/opt/admarketplace/backend_py
+
+ExecStart=/opt/admarketplace/backend_py/.venv/bin/python -m app.telegram_bot
+Restart=always
+RestartSec=10
+
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/opt/admarketplace/backend_py/.env
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,435 @@
+{
+  "error": {
+    "somethingWentWrong": "Something went wrong",
+    "tryAgainOrRestart": "Try refreshing or restarting the app.",
+    "retry": "Retry"
+  },
+  "nav": {
+    "market": "Market",
+    "myChannels": "My Channels",
+    "orders": "Orders",
+    "profile": "Profile"
+  },
+  "common": {
+    "all": "All",
+    "any": "Any",
+    "buy": "Buy",
+    "cancel": "Cancel",
+    "verified": "Verified",
+    "uiOnly": "UI only",
+    "comingSoon": "Coming soon",
+    "apply": "Apply",
+    "reset": "Reset",
+    "search": "Search",
+    "retry": "Retry",
+    "open": "Open",
+    "subsShort": "subs",
+    "hoursShort": "h"
+  },
+  "market": {
+    "title": "Market",
+    "filters": {
+      "title": "Filters",
+      "searchPlaceholder": "@channel or name",
+      "category": "Category",
+      "price": "Price",
+      "audience": "Audience",
+      "topics": "Topics",
+      "options": {
+        "category": {
+          "all": "All",
+          "news": "News",
+          "tech": "Tech",
+          "lifestyle": "Lifestyle"
+        },
+        "audience": {
+          "any": "Any",
+          "10k": "10k+",
+          "50k": "50k+",
+          "100k": "100k+"
+        },
+        "price": {
+          "any": "Any",
+          "low": "$",
+          "mid": "$$",
+          "high": "$$$"
+        }
+      }
+    }
+  },
+  "channel": {
+    "title": "Channel",
+    "about": "About",
+    "stats": "Stats",
+    "details": {
+      "description": "High quality audience. No business logic here — just UI skeleton.",
+      "metricCpm": "CPM",
+      "metricEr": "ER"
+    },
+    "formats": {
+      "title": "Ad formats",
+      "items": {
+        "post": {
+          "title": "Post",
+          "description": "Native post with image/video.",
+          "eta": "24h"
+        },
+        "story": {
+          "title": "Story",
+          "description": "Short story format.",
+          "eta": "12h"
+        },
+        "pin": {
+          "title": "Pinned",
+          "description": "Pinned post for 24h.",
+          "eta": "48h"
+        }
+      }
+    },
+    "ownChannelNoBuy": "This is your channel — you cannot order ads here.",
+    "payment": {
+      "title": "Payment",
+      "description": "Funds will be held until the ad is published or the deal is cancelled.",
+      "noPrice": "Seller did not set prices. Purchase unavailable.",
+      "available": "Available: {{val}}",
+      "pay": "Pay",
+      "processing": "Processing…",
+      "error": "Payment failed",
+      "errorLoad": "Failed to load data"
+    }
+  },
+  "orders": {
+    "title": "Orders",
+    "tabActive": "Active",
+    "tabDone": "Completed",
+    "tabAll": "All",
+    "empty": "No orders",
+    "writePost": "Write ad post",
+    "viewPost": "View post",
+    "goToPost": "Go to post",
+    "sellerConfirmPost": "Post confirmation",
+    "sellerDone": "Order completed.",
+    "sellerDoneAutopost": "Order completed. Funds will be credited within 24 hours.",
+    "errorNoApi": "API URL not configured.",
+    "cancel": "Cancel",
+    "status": {
+      "draft": "Draft",
+      "writing_post": "Writing post",
+      "pending_seller": "Pending seller",
+      "pending": "Pending",
+      "in_progress": "In progress",
+      "done": "Done",
+      "cancelled": "Cancelled"
+    }
+  },
+  "myChannels": {
+    "title": "My channels",
+    "add": "Add",
+    "empty": {
+      "title": "No channels yet",
+      "description": "Add your Telegram channel or group to start selling ads"
+    },
+    "status": {
+      "pending": "Pending",
+      "active": "Active",
+      "paused": "Paused",
+      "inactive": "No admin rights",
+      "removed": "Removed"
+    },
+    "addDialog": {
+      "title": "Add channel",
+      "description": "To add a channel, you need to add the bot as an administrator.",
+      "orManual": "Or add manually:",
+      "step1": {
+        "title": "Open your channel settings",
+        "description": "Go to your channel → Administrators"
+      },
+      "step2": {
+        "title": "Add bot as admin",
+        "description": "Search for the bot and add it with minimal permissions"
+      },
+      "step3": {
+        "title": "Return here",
+        "description": "The channel will appear automatically"
+      },
+      "openBot": "Open bot",
+      "addBotToChannel": "Add bot to channel",
+      "addBotToChannelDescription": "Opens channel selection from your channel list",
+      "hint": "The channel will appear here after you add the bot as admin"
+    }
+  },
+  "channelDetail": {
+    "subscribers": "Subscribers",
+    "avgViews": "Avg. views",
+    "views": "Views",
+    "reach24h": "Reach 24h",
+    "growth": "Growth",
+    "postsPerDay": "Posts/day",
+    "dynamicsLabel": "Dynamics",
+    "dynamics": {
+      "growing": "Growing",
+      "stable": "Stable",
+      "declining": "Declining"
+    },
+    "engagementRate": "Engagement rate",
+    "excellent": "Excellent",
+    "good": "Good",
+    "average": "Average",
+    "analytics": "Analytics",
+    "description": "Description",
+    "category": "Category",
+    "onMarket": "On market",
+    "onMarketDescription": "Advertisers can see and buy ads",
+    "notOnMarket": "Not on market",
+    "notOnMarketDescription": "Publish to start receiving orders",
+    "publishToMarket": "Publish to market",
+    "publishErrorNoFormats": "Add at least one ad format in channel settings first",
+    "editListing": "Edit listing",
+    "unpublishFromMarket": "Remove from market",
+    "settings": "Channel settings",
+    "noData": "No data",
+    "posts": "Posts",
+    "reactions": "Reactions",
+    "comments": "Comments",
+    "shares": "Shares",
+    "bestPost": "Best post",
+    "popularPosts": "Popular posts",
+    "mediaPost": "Media post",
+    "hasMedia": "Has media",
+    "goToPost": "Go to post",
+    "updatedAt": "Updated",
+    "refreshStats": "Refresh stats",
+    "collectingData": "Collecting data…",
+    "collectingDescription": "Loading channel statistics for 90 days",
+    "aiAnalytics": "AI Analytics",
+    "aiAnalyzing": "Analyzing…",
+    "aiRating": "Rating",
+    "aiStrengths": "Strengths",
+    "aiWeaknesses": "Areas for improvement",
+    "aiGrowthForecast": "Growth forecast",
+    "aiAdvertising": "Why buy ads here",
+    "aiAudienceQuality": "Audience quality",
+    "aiContentTips": "Content tips",
+    "aiTargetAudience": "Target audience",
+    "aiDescription": "Analysis, recommendations, forecast"
+  },
+  "profile": {
+    "title": "Profile",
+    "guest": "Guest",
+    "env": {
+      "telegram": "Telegram WebApp",
+      "browser": "Browser preview"
+    },
+    "header": {
+      "username": "Username",
+      "id": "ID",
+      "phone": "Phone",
+      "verifyPhone": "Verify phone"
+    },
+    "balance": {
+      "title": "Balance",
+      "stars": "Stars",
+      "ton": "TON",
+      "usdt": "USDT",
+      "starsHint": "Stars are purchased directly through Telegram",
+      "buyStars": "Buy Stars"
+    },
+    "usdtTopUp": {
+      "title": "USDT Top-up",
+      "description": "Send USDT on TON network to the address below. In the Memo field, enter your ID.",
+      "addressLabel": "Wallet address",
+      "memoLabel": "Tag/Memo",
+      "loading": "Loading…",
+      "copied": "Copied",
+      "error": "USDT deposits are temporarily unavailable"
+    },
+    "tonTopUp": {
+      "title": "TON Top-up",
+      "description": "Send TON from your connected wallet to the address below. The amount will be credited automatically.",
+      "addressLabel": "Deposit address",
+      "loading": "Loading…",
+      "copied": "Copied",
+      "error": "TON deposits unavailable. Connect your wallet."
+    },
+    "tonWithdraw": {
+      "title": "TON Withdrawal",
+      "description": "TON will be sent to your connected wallet.",
+      "amountLabel": "TON amount",
+      "balance": "Available: {{balance}} TON",
+      "feeLabel": "Fee 0.15 TON",
+      "toConnectedWallet": "Funds will be sent to your connected wallet.",
+      "allBalance": "All balance",
+      "paste": "Paste",
+      "netAmount": "{{gross}} TON to withdraw → {{net}} TON to receive (fee {{fee}} TON)",
+      "invalidAmount": "Minimum 0.1 TON",
+      "connectWalletRequired": "Connect TON wallet for withdrawal.",
+      "insufficient": "Insufficient TON",
+      "processing": "Processing…",
+      "submitted": "Withdrawal submitted. Please wait.",
+      "error": "Withdrawal failed. Try again later."
+    },
+    "usdtWithdraw": {
+      "title": "USDT Withdrawal",
+      "description": "USDT will be sent to the specified TON wallet.",
+      "amountLabel": "USDT amount",
+      "balance": "Available: {{balance}} USDT",
+      "feeLabel": "Fee 0.3 USDT",
+      "allBalance": "All balance",
+      "addressLabel": "TON wallet address",
+      "memoLabel": "Tag/Memo",
+      "memoPlaceholder": "Optional",
+      "memoOptional": "optional",
+      "paste": "Paste",
+      "netAmount": "{{gross}} USDT to withdraw → {{net}} USDT to receive (fee {{fee}} USDT)",
+      "invalidAmount": "Minimum 10 USDT",
+      "invalidAddress": "Enter TON wallet address",
+      "insufficient": "Insufficient USDT",
+      "processing": "Processing…",
+      "submitted": "Withdrawal submitted. Please wait.",
+      "error": "Withdrawal failed. Try again later."
+    },
+    "starsExchange": {
+      "title": "Exchange Stars → USDT",
+      "titlePrefix": "Exchange Stars →",
+      "titleSuffix": "USDT",
+      "button": "Exchange",
+      "description": "Rate: 1 USDT = {{rate}} Stars",
+      "amountLabel": "Stars to exchange",
+      "youReceive": "You receive:",
+      "exchange": "Exchange",
+      "processing": "Exchanging…",
+      "noAuth": "Sign in required",
+      "insufficient": "Insufficient Stars",
+      "noBalance": "Not enough Stars to exchange",
+      "error": "Exchange failed. Try again later."
+    },
+    "starsTopUp": {
+      "title": "Top up Stars",
+      "description": "Choose amount from 1 to 100,000 Stars to add to your balance",
+      "amountLabel": "Amount (Stars)",
+      "loading": "Loading…",
+      "noAuth": "Sign in required",
+      "invalidAmount": "Enter amount from 1 to 100,000",
+      "notSupported": "Stars top-up is not available in this Telegram version",
+      "invoiceError": "Failed to create invoice. Try again later."
+    },
+    "wallet": {
+      "connect": "Connect wallet",
+      "connectHere": "Connect on this device",
+      "connected": "Wallet connected",
+      "connectedOtherDevice": "Connected on another device",
+      "disconnect": "Disconnect",
+      "disconnectConfirmTitle": "Disconnect wallet?",
+      "disconnectConfirmText": "You will need to reconnect the wallet to top up or withdraw TON.",
+      "topUp": "Top up",
+      "withdraw": "Withdraw",
+      "notConnected": "Wallet is not connected"
+    },
+    "invite": {
+      "title": "Invite a friend",
+      "subtitle": "Referral program",
+      "share": "Share link",
+      "referrals": "Referrals",
+      "active": "Active",
+      "shareText": "Join the marketplace for buying & selling Telegram ads 📊",
+      "infoTitle": "Earn with friends",
+      "infoDescription": "Invite friends and get payouts from their activity! The more active friends — the more you earn.",
+      "step1": "Share your unique link — it's easy, just one tap!",
+      "step2": "Your friend registers and starts buying or selling ads",
+      "step3": "You receive 10% from the platform's commission on every transaction — forever!",
+      "bonus": "+50 Stars bonus for friend's first purchase of ≥1000 Stars",
+      "bonusTap": "Tap to invite"
+    },
+    "settings": {
+      "title": "Settings",
+      "theme": "Theme",
+      "themeAuto": "Auto",
+      "themeLight": "Light",
+      "themeDark": "Dark",
+      "language": "Language",
+      "languageEn": "English",
+      "languageRu": "Russian"
+    },
+    "auth": {
+      "verifying": "Verifying…",
+      "failed": "Verification failed",
+      "retry": "Retry"
+    },
+    "phone": {
+      "linkedSuccess": "Phone number linked successfully!",
+      "notArrived": "Phone hasn't arrived yet. Open the bot chat and share your contact again.",
+      "failed": "Failed to get phone number",
+      "pendingHint": "After you share the contact, the profile will refresh automatically.",
+      "authPending": "Authorizing… please wait and try again."
+    }
+  },
+  "categories": {
+    "news": "News",
+    "tech": "Tech",
+    "lifestyle": "Lifestyle",
+    "crypto": "Crypto",
+    "entertainment": "Entertainment",
+    "education": "Education",
+    "other": "Other"
+  },
+  "channelSettings": {
+    "title": "Channel settings",
+    "adFormats": "Ad formats",
+    "category": "Channel category",
+    "categoryAi": "AI suggested category",
+    "placementMode": "Placement mode",
+    "placementModeAuto": "Auto posting",
+    "placementModeManual": "On approval",
+    "format24h": "24h post",
+    "format48h": "48h post",
+    "pinned": "Pinned",
+    "priceStars": "Price in Stars",
+    "priceStarsHint": "Price in Stars (1 USD ~ {{count}} stars)",
+    "priceUsdt": "Price in USDT",
+    "enabled": "Enabled",
+    "save": "Save settings",
+    "savedMessage": "Settings saved"
+  },
+  "topics": {
+    "ai": "AI",
+    "startups": "Startups",
+    "gadgets": "Gadgets",
+    "finance": "Finance",
+    "macro": "Macro",
+    "stocks": "Stocks",
+    "events": "Events",
+    "food": "Food",
+    "guides": "Guides",
+    "product": "Product",
+    "updates": "Updates",
+    "community": "Community"
+  },
+  "channels": {
+    "techDaily": {
+      "title": "Tech Daily",
+      "description": "Daily tech news, product launches and short insights."
+    },
+    "marketInsider": {
+      "title": "Market Insider",
+      "description": "Markets, macro, and fast updates with charts."
+    },
+    "urbanLife": {
+      "title": "Urban Life",
+      "description": "City guides, events, food and weekend picks."
+    },
+    "myProductChannel": {
+      "title": "My Product Channel",
+      "description": "Updates about our product and roadmap."
+    },
+    "localCommunity": {
+      "title": "Local Community",
+      "description": "Community events and announcements."
+    }
+  },
+  "stub": {
+    "description": "The app works only in Telegram. Open the bot to continue.",
+    "openInTelegram": "Open in Telegram"
+  }
+}
+
+
