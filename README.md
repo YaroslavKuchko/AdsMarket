@@ -61,7 +61,6 @@ npm run dev
 - `USDT_DEPOSIT_WALLET`, `TON_DEPOSIT_WALLET` — адреса для пополнения
 - `USDT_WITHDRAW_MNEMONIC` или `USDT_WITHDRAW_PRIVATE_KEY` — для выводов
 
-**Важно:** Никогда не коммитьте `.env` и реальные мнемоники/ключи.
 
 ## Функционал
 
